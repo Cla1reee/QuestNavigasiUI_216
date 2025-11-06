@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3Api::class)
 
-package com.example.navigasiku.view
+package com.example.navigasi.view
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -26,7 +26,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.example.navigasiku.R
+import com.example.navigasi.R
 
 @Composable
 fun FormIsian(
@@ -102,7 +102,7 @@ fun FormIsian(
                 modifier = Modifier.fillMaxWidth(fraction = 1f),
                 onClick = onSubmitBtnClick
             ) {
-                Text(text = stringResource(id = R.string.Submit))
+                Text(text = stringResource(id = R.string.submit))
             }
         }
     }

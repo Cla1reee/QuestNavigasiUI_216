@@ -27,7 +27,7 @@ import androidx.compose.ui.unit.sp
 import com.example.navigasi.R
 
 @Composable
-fun TampilData(
+fun TampilanData(
     items: List<Pair<String, String>> = emptyList(),
     onBackBtnClick: () -> Unit = {}
 ) {
@@ -71,7 +71,7 @@ fun TampilData(
                 modifier = Modifier.fillMaxWidth(),
                 onClick = onBackBtnClick
             ) {
-                Text(text = stringResource(id = R.string.Back))
+                Text(text = stringResource(id = R.string.back))
             }
         }
     }
